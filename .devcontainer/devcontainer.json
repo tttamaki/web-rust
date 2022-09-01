@@ -1,0 +1,7 @@
+{
+    "name": "rust-web",
+    "dockerComposeFile": "../../docker-compose.yml",
+    "service": "web",
+    "remoteUser": "rustuser",
+    "workspaceFolder": "/web"
+}
