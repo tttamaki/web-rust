@@ -3,7 +3,7 @@ use std::env;
 
 #[get("/")]
 async fn hello() -> impl Responder {
-    HttpResponse::Ok().body("Hello nekochan!")
+    HttpResponse::Ok().body("Hello wanchan!")
 }
 
 #[post("/echo")]
